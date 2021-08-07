@@ -1,0 +1,86 @@
+Strings
+=====================================================================
+
+Strings are ordered sequences it means you can use indexing and slicing to grab the strings 
+
+Character:     h e l l o
+Index:         0 1 2 3 4
+Reverseindex   0 -4-3-2-1 
+
+
+Slicing grabs subsection of multiple characters
+
+[start:stop:step]
+
+Stop : Index where you will go upto but not include that number
+
+
+step : Hops it takes 
+
+
+\n - new line
+\t - tab space
+len() - checks the length of string
+
+Immutability
+======================================================================
+
+Strings are immutable. You cannot reassign them with whatever you want
+Mutable means you can use index/position of element to modify the element. Immutable is the opposite
+
+Concatenate two strings using the '+' sign
+
+a= " Mahesh "
+b = " Mammidibathula "
+
+a= " Mahesh "
+b= " Mamidibathula "
+print(a+b)
+Output : Mahesh  Mamidibathula 
+
+# Objects in python have in built methods. This methods are nothing but functions inside objects
+
+x = 'Hello World'
+
+#  Gives everything in upper case
+
+print(x.upper())
+
+Formatting : https://pyformat.info/
+
+Lists 
+===========================================================================
+
+Ordered sequences that hold a variety of object types
+
+my_list = [1,2,3]
+
+my_list=['String',12,12.45]
+
+len(my_list)
+
+Lists are mutable
+new_list.append() - to add new item to end of list
+new_list.pop()- by default pop the last element of list but you can specify any number
+new_list.sort()- sort order alphabetically
+num_list.reverse()- It reverses everything in your list
+
+
+Dictionaries
+===========================================================================
+
+Stores objects in key value pairs
+{'key1':'value1','key2':'value2'}
+
+Unorderd and cannot be sorted. You can retrieve an object without knowing index location
+Ordered sequence can be indexed or sliced
+
+my_dictionary={'key1':'value1','key2':'value2'}
+
+my_dictionary['key1']=value1
+
+Example is prices in a store. 
+
+prices_lookup={'Apples':456,'Oranges':532,'Milk':960}
+
+
