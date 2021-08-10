@@ -67,7 +67,7 @@ num_list.reverse()- It reverses everything in your list
 
 
 Dictionaries
-===========================================================================
+=====================================================================================
 
 Stores objects in key value pairs
 {'key1':'value1','key2':'value2'}
@@ -82,5 +82,87 @@ my_dictionary['key1']=value1
 Example is prices in a store. 
 
 prices_lookup={'Apples':456,'Oranges':532,'Milk':960}
+
+d.keys(),d.values(),d.items()
+
+=====================================================================================
+Tuples
+
+Tuples are similar to lists but they are not immutable. Once an element in tuple it 
+cannot be reassigned
+tuple: (1,2,3)
+
+t.count(),t.index()
+
+=====================================================================================
+
+Sets
+They are unordered collection of unique elements.
+It should have unique values. 
+It never accepts duplicates.
+They don't have any particular unique order.
+Casting a list to set to get unique values.
+=====================================================================================
+
+Booleans
+
+Operators that allow you to convey True or False statements
+They are very important with control flow and logic
+
+======================================================================================
+
+Input/Output files
+
+test.txt
+%%writefile myfile.txt
+Hello this is a text file
+this is the second line
+this is third line
+
+
+myfile=open('myfile.txt')
+myfile=open('whoops_wrong.txt')
+myfile.read() - To get the entire text as string.The cursor goes all to the end of line after its done
+myfile.seek(0) - to bring the cursor back to first place
+contents=myfiles.read()
+myfile.seek(0)
+myfile.readlines() - You get each lines as a list of objects
+
+File Locations
+
+to open a file in any location give the file path
+
+myfile=open("C:\\Users\\Username\\Folder\\test.txt")
+pwd- present working directory 
+ for mac os myfile=open("/Users/Username...)
+
+myfile.close() - to close the file. We have to manually close it.
+myfile=open('myfile.txt')
+
+with open('myfile.txt') as my_new_file:
+     contents=my_newfile.read()
+	
+If we using with we dont need to worry about closing the file
+
+with open('myfile.txt',mode='r') as myfile:
+     contents= myfile.read()
+
+r-read only, w-write only, a-append only, r+ - read and write, w+ - read and write 
+
+
+with open('my_new_file.txt',mode='r') as f:
+     print(f.read())
+
+with open('my_new_file.txt', mode='a') as f:
+     f.write('\n Four on forth')
+
+with open('ashdashdashd.txt',mode='w') as f:
+     f.write('I created this file') 
+
+with mode as 'w' it overrides an existing file or creates a new file if not present.
+
+
+ 		
+
 
 
