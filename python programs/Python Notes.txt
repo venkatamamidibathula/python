@@ -161,8 +161,44 @@ with open('ashdashdashd.txt',mode='w') as f:
 
 with mode as 'w' it overrides an existing file or creates a new file if not present.
 
+===========================================================================================================
+Loops
+
+for loop in strings we can access each character in string
+
+for _ in 'HelloWorld:
+    print("Mahesh")
+
+tuple unpacking
 
  		
 
+=========================================================================================================
+while loops:
 
+while booleancondition:
+	do something
+else:
+	do something else
+
+
+break, continue and pass
+break: Breaks out of the current closet enclosing loop
+continue: Go the top of enclosing closest loop
+pass : does nothing at all
+
+x=[1,2,3]
+
+for item in x:
+	#comment
+	pass
+
+===============================================================================================================
+
+
+	
+range - range all the way upto but not including that number
+range(10) - all the way upto 10 but not 10
+
+range(0,10,2) - step size or hop size of 2
 
