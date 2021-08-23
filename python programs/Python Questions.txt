@@ -1,0 +1,20 @@
+7.How to list directory in python?
+8.How to list files in a directory in python?
+9.How to remove a simple file in OS?
+10.How to remove a directory in OS?.
+11.How to remove a folder irrespective of files present or not permanently?
+12.How to move files from one directory to other?
+13.How to remove files in safely?
+14.How to use a python debugger functionality?
+15.Write a program to get the febinooici series given a range of number?
+16.What is the significance of yield function?
+17.Write a program to get the cubes of first n natural numbers?
+18.What is the significance of counter and where is it available?
+19.What is the significance of defaultdict and named tuple?
+20.Program to obtain the leap year?
+21.Write a program to print first 10 questions from a file?
+22.What are the different ways to check the performance of your code?
+23.What is the syntax of timeit module?
+24.How validate the performance of your code using yield and appending string vs map?
+
+
