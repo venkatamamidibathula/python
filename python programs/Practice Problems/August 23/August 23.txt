@@ -1,0 +1,10 @@
+20.Program to obtain the leap year?
+14.How to use a python debugger functionality?
+9.How to remove a simple file in OS?
+27.What is the command to create a zip file using the shutil module and unpack the contents of a zip file using shutil module? 
+24.How validate the performance of your code using yield and appending string vs map?
+29.Write a python program to print the list of emails from a csv file?
+7.How to list directory in python?
+25.Write a python program to create 10 files, zip them and unzip them and after verifying delete the folder altogether for clean up? 
+26.Write a python program to make an archive of a folder, zip them and unpack them? 
+1.Write a python program to print the employee of month where employees are inserted in form of tuples? 
