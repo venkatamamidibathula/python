@@ -1,1 +1,1 @@
-pYthon Notes
+pYthon otes
